@@ -1,0 +1,10 @@
+
+> frontend@0.1.0 build
+> craco build
+
+Creating an optimized production build...
+Failed to compile.
+
+SyntaxError: Unexpected token (1:79)
+
+
