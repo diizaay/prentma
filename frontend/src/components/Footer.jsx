@@ -44,7 +44,7 @@ const footerLinks = [
 const social = [
   { icon: Facebook, label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61580930091688' },
   { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/prentma_angola/' },
- 
+
 ];
 
 export const Footer = () => {
@@ -61,7 +61,7 @@ export const Footer = () => {
               <div>
                 <p className="font-display text-2xl leading-none">PRENTMA</p>
                 <p className="text-sm uppercase tracking-[0.26em] text-white/70">Prémio Nacional dos
-Taxistas & Mototaxistas</p>
+                  Taxistas & Mototaxistas</p>
               </div>
             </div>
             <p className="max-w-sm text-sm text-white/80">
@@ -88,7 +88,7 @@ Taxistas & Mototaxistas</p>
                 <a
                   key={label}
                   href={href}
-                  target="_blank"                
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-white transition hover:border-white/40 hover:bg-white/10"
                   aria-label={label}
@@ -124,7 +124,7 @@ Taxistas & Mototaxistas</p>
             <span>
               Desenvolvido por{' '}
               <a
-                href="https://incredible-nightingale-688.convex.app/"
+                href="https://pontocriativo.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/80 transition hover:text-white"
